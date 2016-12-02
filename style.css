@@ -1,0 +1,50 @@
+.Converter-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30%;
+	height: 300px;
+	width: 600px;
+	margin: 20px;
+	background-color: #0DAFBE;
+	border-radius: 6px;
+}
+
+.value {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#add-sum {
+}
+#quantity {
+	width: 150px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 6px;
+}
+#exchRate {
+	width: 150px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 6px;
+
+}
+.text {
+	 font-family: "Trebuchet MS";
+}
+.name {
+	position: relative;
+	top: -15px;
+	text-align: center;
+	padding: 5px;
+	font-size: 45px;
+	font-weight: 900;
+	text-shadow: 2px 2px 3px green; 
+}
